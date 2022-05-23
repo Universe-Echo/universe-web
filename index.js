@@ -8,7 +8,7 @@ const Schema = require('./models/web');
 const Schema2 = require('./models/onstatus');
 
 
-mongoose.connect('mongodb+srv://piyush:piyush200@universe-bot.s4zfo.mongodb.net/test');
+mongoose.connect('');
 	mongoose.connection.on("connected", () =>
 		console.log(
 			chalk.cyan("[ INFORMATION ]") +
